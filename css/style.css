@@ -21,6 +21,32 @@ main{
     width: 100%;
 }
 
+.cuore{
+    font-size: 40px;
+    padding: 0 10px;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    display: none;
+}
+
+.prodotto:hover .cuore{
+    display: block;
+}
+
+.img-prodotto-secondo{
+    width: 100%;
+    display: none;
+}
+
+.prodotto:hover .img-prodotto-secondo{
+    display: block;
+}
+
+.prodotto:hover .img-prodotto{
+    display: none;
+}
+
 footer{
     position: fixed;
     bottom: 0;
@@ -48,18 +74,7 @@ footer{
     width: calc(100% / 3 - 20px);
 }
 
-.cuore{
-    font-size: 40px;
-    padding: 0 10px;
-    top: 5px;
-    right: 5px;
-    background-color: white;
-    display: none;
-}
 
-.container:hover .cuore{
-    display: block;
-}
 
 .etichette{
     position: absolute;
