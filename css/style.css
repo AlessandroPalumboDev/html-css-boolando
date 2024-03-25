@@ -54,6 +54,11 @@ footer{
     top: 5px;
     right: 5px;
     background-color: white;
+    display: none;
+}
+
+.container:hover .cuore{
+    display: block;
 }
 
 .etichette{
