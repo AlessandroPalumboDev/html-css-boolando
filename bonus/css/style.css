@@ -28,12 +28,20 @@ main{
     top: 5px;
     right: 5px;
     background-color: white;
+    border: none;
     display: none;
 }
 
 .prodotto:hover .cuore{
-    display: block;
+    display: inline-block;
 }
+
+.cuore:hover{
+    color: red;
+    display: inline-block;
+    cursor: pointer
+}
+
 
 .img-prodotto-secondo{
     width: 100%;
@@ -41,7 +49,7 @@ main{
 }
 
 .prodotto:hover .img-prodotto-secondo{
-    display: block;
+    display: inline-block;
 }
 
 .prodotto:hover .img-prodotto{
@@ -70,9 +78,21 @@ footer{
     flex-wrap: wrap;
 }
 
+.row-header{
+    width: 100%;
+}
+
 .col33{
     margin: 10px 5px;
     width: calc(100% / 3 - 20px);
+}
+
+.col25{
+    width: 25%;
+}
+
+.col50{
+    width: 50%;
 }
 
 
@@ -119,6 +139,8 @@ footer{
 .position-absolute{
     position: absolute;
 }
+
+.
 
 
 
