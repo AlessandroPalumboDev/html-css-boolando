@@ -28,6 +28,7 @@ main{
     top: 5px;
     right: 5px;
     background-color: white;
+    border: none;
     display: none;
 }
 
@@ -79,7 +80,7 @@ footer{
 
 .etichette{
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
 }
 
 .percentuale-sconto{
